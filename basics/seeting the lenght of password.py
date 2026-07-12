@@ -1,6 +1,8 @@
-x=input("Set Password")
+x=input("Set Password : ")
 #asking user to set password
 if len(x) >= 8:
     print("Password is valid")
+elif "@" in x and "." in x:
+    print("Password is valid")
 else:
-    print("Password is not valid")
+    print("Password is not valid. Password should be at least 8 characters long and contain '@' and '.')
