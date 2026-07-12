@@ -1,5 +1,5 @@
 x=input("Enter email address : ")
-if "a" in x and "." in x:
+if "@" in x and "." in x:
     print("Email address is valid")
 else:
     print("Email address is not valid")
